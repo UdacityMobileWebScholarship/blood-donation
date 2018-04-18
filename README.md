@@ -47,9 +47,7 @@ You will also be able to find out about the various blood donation camps that ar
 
 ## Contributing
 
-If you have any ideas, just open an issue and tell me what you think.
-
-If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
+Please follow [these steps](https://github.com/UdacityMobileWebScholarship/blood-donation/blob/master/CONTRIBUTING.md) to contribute.
 
 ## Team
 
