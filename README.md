@@ -37,7 +37,7 @@ You will also be able to find out about the various blood donation camps that ar
 
 ## Discussion
 
- - Contact to project moderator on slack handle: @Girdhari @Rahul_A @Muskan Jain @madhudskumar @Vijay @optimistanoop @varunzxzx @specbug
+ - Contact to project moderator on slack handle: @Girdhari @geekysrm @Rahul_A @Muskan Jain @madhudskumar @Vijay @optimistanoop @varunzxzx @specbug
 
 ## Tech Stack
 
