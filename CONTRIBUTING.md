@@ -74,38 +74,38 @@ Now that you have a copy of your fork, there is work you will need to do to keep
 
 Do this prior to every time you create a branch for a PR:
 
-1. Make sure you are on the `master` branch
+1. Make sure you are on the `dev` branch
 
 ```shell
 $ git status
-On branch master
-Your branch is up-to-date with 'origin/master'.
+On branch dev
+Your branch is up-to-date with 'origin/dev'.
 ```
-If your aren't on `master`, resolve outstanding files / commits and checkout the `master` branch
+If your aren't on `dev`, resolve outstanding files / commits and checkout the `dev` branch
 
 ```shell
-$ git checkout master
+$ git checkout dev
 ```
 
 2. Do a pull with rebase against `upstream`
 
 ```shell
-$ git pull --rebase upstream master
+$ git pull --rebase upstream dev
 ```
 
-This will pull down all of the changes to the official master branch, without making an additional commit in your local repo.
+This will pull down all of the changes to the official dev branch, without making an additional commit in your local repo.
 
-3. (_Optional_) Force push your updated master branch to your GitHub fork
+3. (_Optional_) Force push your updated dev branch to your GitHub fork
 
 ```shell
-$ git push origin master --force
+$ git push origin dev --force
 ```
 
-This will overwrite the master branch of your fork.
+This will overwrite the dev branch of your fork.
 
 ### Create a Branch
 
-Before you start working, you will need to create a separate branch specific to the issue / feature you're working on. You will push your work to this branch. This will keep your master branch clean.
+Before you start working, you will need to create a separate branch specific to the issue / feature you're working on. You will push your work to this branch. This will keep your dev branch clean.
 
 #### Naming Your Branch
 
@@ -129,7 +129,7 @@ $ git push origin [name_of_your_new_branch]
 
 ### Set Up Linting
 
-You should have [ESLint running in your editor](http://eslint.org/docs/user-guide/integrations.html), and it will highlight anything doesn't conform to our style rules (you can find a summary of those rules [here](https://github.com/UdacityMobileWebScholarship/blood-donation/blob/master/.eslintrc)).
+You should have [ESLint running in your editor](http://eslint.org/docs/user-guide/integrations.html), and it will highlight anything doesn't conform to our style rules (you can find a summary of those rules [here](https://github.com/UdacityMobileWebScholarship/blood-donation/blob/dev/.eslintrc)).
 
 > Please do not ignore any linting errors, as they are meant to **help** you and to ensure a clean and simple code base.
 
@@ -190,9 +190,9 @@ Moderators are on hand to assist with Pull Request related issues in our [Slack 
 #### Important: ALWAYS EDIT ON A BRANCH
 
 Take away only one thing from this document: Never, **EVER**
-make edits to the `master` branch. ALWAYS make a new branch BEFORE you edit
+make edits to the `dev` branch. ALWAYS make a new branch BEFORE you edit
 files. This is critical, because if your PR is not accepted, your copy of
-master will be forever sullied and the only way to fix it is to delete your
+dev will be forever sullied and the only way to fix it is to delete your
 fork and re-fork.
 
 #### Methods
@@ -207,19 +207,19 @@ There are two methods of creating a pull request for blood-donation:
 This is the recommended method. Read about [How to Setup and Maintain a Local
 Instance of blood-donation](#maintaining-your-fork).
 
-1.  Perform the maintenance step of rebasing `master`.
-2.  Ensure you are on the `master` branch using `git status`:
+1.  Perform the maintenance step of rebasing `dev`.
+2.  Ensure you are on the `dev` branch using `git status`:
 
         $ git status
-        On branch master
-        Your branch is up-to-date with 'origin/master'.
+        On branch dev
+        Your branch is up-to-date with 'origin/dev'.
         
         nothing to commit, working directory clean
 
-3.  If you are not on master or your working directory is not clean, resolve
-    any outstanding files/commits and checkout master `git checkout master`
+3.  If you are not on dev or your working directory is not clean, resolve
+    any outstanding files/commits and checkout dev `git checkout dev`
 
-4.  Create a branch off of `master` with git: `git checkout -B
+4.  Create a branch off of `dev` with git: `git checkout -B
     branch/name-here` **Note:** Branch naming is important. Use a name like
     `fix/short-fix-description` or `feature/short-feature-description`.
 
@@ -251,13 +251,13 @@ recreating your fork.
 1.  Once the edits have been committed, you will be prompted to create a pull
     request on your fork's GitHub Page.
 
-2.  By default, all pull requests should be against the blood-donation main repo, `master`
+2.  By default, all pull requests should be against the blood-donation main repo, `dev`
     branch.
     **Make sure that your Base Fork is set to UdacityMobileWebScholarship/blood-donation when raising a Pull Request.**
 
-    <img border="0" data-original-height="164" data-original-width="989" height="106" src="https://2.bp.blogspot.com/-O_5S7XIYrY0/WtdL18G31aI/AAAAAAAAA4M/7za3FPUSNmoJ3pT5C3sM7hIF-q0u6oVGgCEwYBhgL/s640/fork.png" width="640" />
+    <img border="0" src="https://3.bp.blogspot.com/-rrB3gPfu8_Y/WtdqtMRf7cI/AAAAAAAAA4g/CEZYbw2oZGQzhHC9Mklyp63vErhZ5ZqeQCLcBGAs/s640/fork.png" width="640" height="91" data-original-width="992" data-original-height="141" />
 
-3.  Submit a pull request from your branch to blood-donation's `master` branch.
+3.  Submit a pull request from your branch to blood-donation's `dev` branch.
 
 4.  The title (also called the subject) of your PR should be descriptive of your
     changes and succinctly indicates what is being fixed.
