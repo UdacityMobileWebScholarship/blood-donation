@@ -6,12 +6,11 @@
     - Also ensure that your new issue conforms to the contribution guidelines: https://github.com/UdacityMobileWebScholarship/blood-donation/CONTRIBUTING.md -->
 
 #### I'm opening this issue because:
-<!-- Delete the reasons that don't apply. -->
 
-  - App is crashing.
-  - I think I've found a bug.
-  - App is doing something I don't understand.
-  - Other (_see below for feature requests_):
+  - [ ] App is crashing.
+  - [ ] I think I've found a bug.
+  - [ ] App is doing something, I don't understand.
+  - [ ] Other (_see below for feature requests_):
 
 #### What's going wrong?
 
@@ -19,7 +18,7 @@
 
 <!-- Give a complete description of how to reproduce the problem. -->
 
-### supporting information:
+### Supporting Information:
 
 <!-- The following information MUST be included. -->
 
