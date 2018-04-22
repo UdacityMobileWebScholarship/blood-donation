@@ -153,6 +153,12 @@ mongod
 # Make sure to replace 3.4 with the version you have installed
 "C:\Program Files\MongoDB\Server\3.4\bin\mongod"
 
+# MongoDB requires a data directory to store all data. MongoDB's default data directory path is the absolute path \data\db on the drive from which you start MongoDB. Create this folder by running the following command in a Command Prompt:
+md \data\db
+
+#You can specify an alternate path for data files using the --dbpath option to mongod.exe, for example:
+"C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe" --dbpath d:\test\mongodb\data
+
 # Start the application
 npm run start
 ```
@@ -213,7 +219,7 @@ Instance of blood-donation](#maintaining-your-fork).
         $ git status
         On branch dev
         Your branch is up-to-date with 'origin/dev'.
-        
+
         nothing to commit, working directory clean
 
 3.  If you are not on dev or your working directory is not clean, resolve

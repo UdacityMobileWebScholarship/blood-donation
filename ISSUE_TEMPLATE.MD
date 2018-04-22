@@ -3,7 +3,7 @@
 <!-- Thank you for contributing by opening an issue! Please review this guide before submitting your issue.
     - If you are opening an issue because you would like to propose a new feature, write the title as "Feature Request:" followed by a short description of the feature.
     - Make sure that you are using the correct version of Node.js. You need to have version v6+ for everything to work fine.
-    - Also ensure that your new issue conforms to the contribution guidelines: https://github.com/UdacityMobileWebScholarship/blood-donation/CONTRIBUTING.md -->
+    - Also ensure that your new issue conforms to the contribution guidelines: https://github.com/UdacityMobileWebScholarship/blood-donation/blob/master/CONTRIBUTING.md -->
 
 #### I'm opening this issue because:
 
