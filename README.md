@@ -12,7 +12,7 @@ You will also be able to find out about the various blood donation camps that ar
   3. [Requirements for Development](#requirements-for-development)
   4. [install](#install)
   5. [Tech Stack](#tech-stack)
-  6. [Contributing](#Contributing)
+  6. [Contributing](#contributing)
 
 ## Features
 
