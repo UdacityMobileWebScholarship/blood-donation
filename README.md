@@ -1,6 +1,6 @@
 <h1 align="center">Blood Donation App</h1>
 
-We are thinking about making a progressive Web app that can help people whenever they want to donate Blood.
+Blood Donation App is a Progressive Web App that can help people who are willing to donate Blood.
 The main aim is to eliminate the procedure of Blood banks to an extent. Blood banks have a major problem where they can be delayed or don’t have proper infrastructure to support the storage of blood leading to decays in many cases.
 You will also be able to find out about the various blood donation camps that are setup. We want to shift major load from the infrastructure than eliminate it.
 
@@ -52,4 +52,4 @@ Please follow [these steps](https://github.com/UdacityMobileWebScholarship/blood
 ## Team
 
 ## Licensing
-
+[MIT License](LICENSE)
